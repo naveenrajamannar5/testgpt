@@ -1,0 +1,12 @@
+# OWASP Security Testing Lab
+
+This repo runs security test cases based on the OWASP Testing Guide.  
+Vulnerable app target: OWASP Juice Shop (running at http://localhost:3000)
+
+## Structure
+- /testcases: Python scripts for test cases
+- /utils: Shared helpers (e.g., ZAP API)
+- /reports: Output of scans
+- /patches: Fix diffs for vulnerable apps
+
+## Run tests:
