@@ -9,4 +9,11 @@ Vulnerable app target: OWASP Juice Shop (running at http://localhost:3000)
 - /reports: Output of scans
 - /patches: Fix diffs for vulnerable apps
 
-## Run tests:
+## Run tests
+
+Execute all testcases using the helper script. Optional arguments like the target
+`--base-url` can be provided and will be forwarded to the Python runner:
+
+```bash
+./run_tests.sh --base-url http://localhost:3000
+```
